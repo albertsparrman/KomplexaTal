@@ -10,6 +10,7 @@ public class KomplexTest {
         Komplex a = new Komplex(3.0,2.0);
         Komplex b = new Komplex(4.0,1.0);
 
+
         System.out.println("talet borde vara 3 + 2i:\n" + a);
 
         Komplex c = a.add(b);
@@ -19,7 +20,8 @@ public class KomplexTest {
         if (c.equals(d)) {
             System.out.println("add funkar!!");
         }
-
+        a = new Komplex(3.0,2.0);
+        b = new Komplex(4.0,1.0);
         c = a.multiply(b);
         d = new Komplex(10,11);
 
